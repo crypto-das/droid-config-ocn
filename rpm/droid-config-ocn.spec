@@ -7,6 +7,8 @@
 %define vendor_pretty HTC
 %define device_pretty U11
 
+%define android_version_major 10
+
 # Community HW adaptations need this
 %define community_adaptation 1
 
