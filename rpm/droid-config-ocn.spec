@@ -9,6 +9,11 @@
 
 %define android_version_major 10
 
+# Device-specific ofono configuration
+Provides: ofono-configs
+Obsoletes: ofono-configs-mer
+Obsoletes: ofono-configs-binder
+
 # Community HW adaptations need this
 %define community_adaptation 1
 
